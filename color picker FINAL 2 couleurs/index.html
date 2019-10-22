@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Picker !</title>
+
+    <link rel="stylesheet" href="sass/style.css">
+
+</head>
+
+<body id="gradient">
+	<h1>Change la couleur du fond !</h1>
+
+	<div class="color1">
+		<label for="red1">R left:</label>
+		<input type="range" min=0 max=255 id="red1" onmousemove="changeColor()" value="0" id="redv1"><br>
+		<label for="green1">G left:</label>
+		<input type="range" min=0 max=255 id="green1" onmousemove="changeColor()" value="0" id="greenv1"><br>
+		<label for="blue1">B left:</label>
+		<input type="range" min=0 max=255 id="blue1" onmousemove="changeColor()" value="160" id="bluev1">
+	</div>
+
+	<div class="color2">
+		<label for="red2">R right:</label>
+		<input type="range" min=0 max=255 id="red2" onmousemove="changeColor()" value="0" id="redv2"><br>
+		<label for="green2">G right:</label>
+		<input type="range" min=0 max=255 id="green2" onmousemove="changeColor()" value="0" id="greenv2"><br>
+		<label for="blue2">B right:</label>
+		<input type="range" min=0 max=255 id="blue2" onmousemove="changeColor()" value="160"  id="bluev2">
+	</div>
+  
+  
+  <script src="js/script.js"></script>
+</body>
+
+  </html>

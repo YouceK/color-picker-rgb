@@ -1,0 +1,37 @@
+body{
+	font: 'League Spartan', sans-serif;
+	color: rgba(0,0,0,.5);
+	}
+
+h1{
+	font: 600 3.5em 'League Spartan', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	margin-top: 200px;
+}
+
+
+
+.color1 { 
+	font: 1.5em 'League Spartan', sans-serif;
+	position: relative;
+	top: 30px;
+	left: 300px;
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
+
+.color2 {
+	font: 1.5em 'League Spartan', sans-serif;
+	position: relative;
+	top: 30px;
+	right: 300px;
+	float: right;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
